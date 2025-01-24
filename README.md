@@ -12,13 +12,15 @@ This repository contains everything you’ll need throughout the course:
 - **Scripts**: Sample code for Spring Boot, PostgreSQL, and React Native.  
 - **Worksheets**: Practical activities to reinforce learning, including API design, database management, and UI/UX best practices.
 
+[C4 SPRING 2025](https://github.com/CODE-CRUNCH-CLUB/C4-Crunch-Labs-Hackathons/tree/main/SPRING-2025)
+
 ## 🛠️ Course Highlights  
 - Learn **Agile project management** techniques and foster effective teamwork.  
 - Develop the **backend** of applications using Spring Boot and PostgreSQL.  
 - Build interactive **frontends** using React Native.  
 - Master the **integration** of frontend and backend systems to create seamless applications.  
 - Deploy and test your application in a **real-world environment** to ensure robustness and scalability.
-[C4 SPRING 2025](https://github.com/CODE-CRUNCH-CLUB/C4-Crunch-Labs-Hackathons/tree/main/SPRING-2025)
+
 ---
 
 Let’s collaborate, innovate, and crunch code together in hackathons! 🚀  
