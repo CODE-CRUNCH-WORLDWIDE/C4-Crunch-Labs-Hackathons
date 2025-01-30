@@ -33,6 +33,9 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 
 # Business Logic Layer
+
+
+
 package com.example.demo.service;
 
 import com.example.demo.model.User;
