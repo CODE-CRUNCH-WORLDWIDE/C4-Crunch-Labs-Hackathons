@@ -1,4 +1,4 @@
-```markdown
+
 # Install and Set Up Free Student License for Spring Boot, IntelliJ IDEA, and Postman
 
 ## 1. Install IntelliJ IDEA (with Free Student License)
