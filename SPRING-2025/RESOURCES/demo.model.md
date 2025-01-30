@@ -21,6 +21,8 @@ public class User {
 
 
 #database layer:
+
+
 package com.example.demo.repository;
 
 import com.example.demo.model.User;
