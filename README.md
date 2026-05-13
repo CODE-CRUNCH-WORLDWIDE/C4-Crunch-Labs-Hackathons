@@ -1,28 +1,118 @@
-# C4 Crunch Labs: Hackathons
+# C4 · Crunch Labs — Hackathons
 
-Welcome to **C4 Crunch Labs: Hackathons**! This 10-week program is designed to guide students in developing a fully functional application using full-stack development and a modern tech stack. With a focus on Agile development principles, participants will gain hands-on experience in creating robust, secure, and dynamic applications.
+> A free, open-source **hackathon-preparation track**: 10 weeks from "I've heard of hackathons" to "I shipped a working project under deadline pressure with three teammates I just met." Built around Agile ceremonies, full-stack rapid prototyping, and the social skills hackathons reward.
 
-## 🔗 Quick Access  
-- Repository Link: [C4 Crunch Labs Hackathons](https://github.com/CODE-CRUNCH-CLUB/C4-Crunch-Labs-Hackathons/tree/main/C4-SPRING-2025)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
+[![Built in the open](https://img.shields.io/badge/built-in%20the%20open-2DD4BF.svg)](https://github.com/CODE-CRUNCH-CLUB)
 
-## 📂 **Resources**  
-This repository contains everything you’ll need throughout the course:  
-
-- **Presentations**: Slide decks covering Agile project management, backend development, and frontend integration.  
-- **Scripts**: Sample code for Spring Boot, PostgreSQL, and React Native.  
-- **Worksheets**: Practical activities to reinforce learning, including API design, database management, and UI/UX best practices.
-
-[C4 SPRING 2025](https://github.com/CODE-CRUNCH-CLUB/C4-Crunch-Labs-Hackathons/tree/main/SPRING-2025)
-
-## 🛠️ Course Highlights  
-- Learn **Agile project management** techniques and foster effective teamwork.  
-- Develop the **backend** of applications using Spring Boot and PostgreSQL.  
-- Build interactive **frontends** using React Native.  
-- Master the **integration** of frontend and backend systems to create seamless applications.  
-- Deploy and test your application in a **real-world environment** to ensure robustness and scalability.
+C4 is both a **course** and a **living archive** of every Code Crunch hackathon (305 Hack, CodeStorm, EmpowHER, HackFiesta, SummerCodeX, and counting). The archive lives in dated subfolders (e.g. `SPRING-2025/`). The course lives in `curriculum/`.
 
 ---
 
-Let’s collaborate, innovate, and crunch code together in hackathons! 🚀  
+## Who this is for
 
-If you have any questions or feedback, feel free to reach out. Happy coding! 💻🔥
+- You're a student or self-taught engineer who has never been to a hackathon and wants to know how to win one.
+- You've been to one and bounced off — "I just sat there for 36 hours and didn't ship."
+- You want to ship a working project, learn to scope under pressure, and meet people.
+- You're a club organizer and need a curriculum to prep your members before an event.
+
+If you want a 12-week comprehensive backend or frontend course, this isn't it — see [C8](../C8-CRUNCH-LABS-WEB-DEV/) or [C16](../C16-CRUNCH-PRO-WEB-BACKEND/). C4 is *about* the event format.
+
+---
+
+## What you will be able to do at the end of 10 weeks
+
+- **Scope a 36-hour hackathon project** that you can actually ship, not just demo with smoke and mirrors.
+- **Lead or contribute to** an Agile sprint structure under tight time pressure: stand-up, demo, retro.
+- **Use a modern full-stack rapid-prototyping toolkit** (React + a Python or Node backend + Postgres or SQLite + Vercel/Railway deploy) without yak-shaving the setup.
+- **Pitch a 3-minute demo** that lands the judging rubric (problem clarity, technical depth, demo-ability, design polish, team chemistry).
+- **Read a hackathon prompt** and identify the unfair advantage available — which sponsor tools to skip, which to lean into.
+- **Behave well on a team of strangers**: scope negotiation, role split, conflict de-escalation, sleep management.
+- **Run a post-mortem** that actually changes your next event.
+
+The capstone is **a hackathon you actually attend**, an archived submission, and a written post-mortem committed to your portfolio.
+
+---
+
+## Prerequisites
+
+- **C1 Weeks 1–7** (or equivalent Python).
+- **Comfortable Git/GitHub**: branch, push, open a PR, merge a PR.
+- **Some web exposure**: you've at least heard of React or know what an HTTP request is.
+- **Willingness to attend a hackathon.** This is non-negotiable; the capstone is event-driven.
+
+---
+
+## Two formats
+
+| Format | Length | Cadence | Best for |
+|--------|--------|---------|----------|
+| **Prep cycle** | 10 weeks · ~10 hrs/wk | The default — leads into a real hackathon | Members preparing for a specific event |
+| **Event week** | 1 week · 36-hour event | A specific hackathon | Replay of the course materials around a real event |
+
+See [`curriculum/SYLLABUS.md`](curriculum/SYLLABUS.md) for the full 10-week breakdown.
+
+---
+
+## The hackathon archive
+
+Each Code Crunch hackathon has its own dated subfolder containing:
+
+- The event README (theme, sponsors, prizes, judging rubric)
+- Submitted projects (links to repos)
+- Winners' write-ups (when permission granted)
+- Post-mortems
+
+Current archive folders:
+
+- [`SPRING-2025/`](SPRING-2025/) — agile + full-stack hackathon prep, Spring 2025
+
+(Future events will be added as separate subfolders. The course materials live in `curriculum/` regardless of event.)
+
+---
+
+## Tools (all free, all open-source)
+
+| Tool | Role |
+|------|------|
+| **Python 3.11+** | Default backend language |
+| **Node.js 20+** | When the team prefers JS end-to-end |
+| **React (Vite)** or **Next.js** | Frontend |
+| **FastAPI / Express** | Backend |
+| **PostgreSQL · SQLite · Supabase free** | Data |
+| **Vercel · Railway · Fly.io free tier** | Deploy |
+| **GitHub Projects** | Sprint board |
+| **Excalidraw / tldraw** | Whiteboard / system sketch |
+| **OBS Studio** | Demo recording |
+| **Figma free** | Mockups |
+
+We avoid sponsor-specific tooling in the curriculum because hackathon sponsors rotate. The materials are stack-agnostic; the *patterns* (Agile, scoping, pitching) transfer.
+
+---
+
+## What you ship
+
+By the end of the prep cycle and your first event you publish:
+
+1. **A team-submitted hackathon project** — a public repo with a working demo URL.
+2. **A 3-minute demo video** (OBS / Loom recording) you can re-use as a portfolio piece.
+3. **A written event post-mortem** at `post-mortems/hackathon-<NN>.md` in your personal portfolio repo.
+4. **A scoping log** showing what you cut and why — the most under-valued artifact, the most valuable for future events.
+
+---
+
+## Recommended next track
+
+- **[C8 · Crunch Labs Web Dev](../C8-CRUNCH-LABS-WEB-DEV/)** — if you want to go deeper on frontend.
+- **[C16 · Crunch Pro Web Backend](../C16-CRUNCH-PRO-WEB-BACKEND/)** — if your hackathon team needed real backend skills.
+- **[C3 · Crunch Labs Portfolio](../C3-CRUNCH-LABS-PORTFOLIO/)** — turn the hackathon submission into a real portfolio piece.
+
+---
+
+## License
+
+GPL-3.0. See [LICENSE](LICENSE).
+
+---
+
+*C4 is part of the Code Crunch open-source curriculum.* [Master catalog ↗](../MASTER-CURRICULUM.md) · [Brand family ↗](../../assets/brand/BRAND-FAMILY.md)
